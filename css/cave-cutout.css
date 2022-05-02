@@ -93,3 +93,35 @@ body {
     width: 25px;
     margin-right: 1rem;
 }
+
+.cave-text {
+    text-align: center;
+    margin: 0;
+    padding: 0 2rem;
+    font-weight: 600;
+}
+
+.cave-container {
+    position: relative;
+    width: 100%;
+}
+.cave-background {
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+}
+#timp-marker {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#middle-marker {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+#hansen-marker {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+}
