@@ -113,7 +113,7 @@ body {
 #timp-marker {
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 18%;
 }
 #middle-marker {
     position: absolute;
@@ -124,4 +124,19 @@ body {
     position: absolute;
     top: 30%;
     left: 75%;
+}
+#timp-marker2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#middle-marker2 {
+    position: absolute;
+    top: 25%;
+    left: 53%;
+}
+#hansen-marker2 {
+    position: absolute;
+    top: 20%;
+    left: 73%;
 }
