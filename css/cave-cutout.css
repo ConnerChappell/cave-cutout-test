@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Hind', sans-serif;
-    height: 100vh;
     max-width: 480px;
     margin: 0;
     background-color: #3a3a3a;
@@ -108,35 +107,111 @@ body {
 .cave-background {
     position: relative;
     width: 100%;
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 #timp-marker {
     position: absolute;
-    top: 20%;
+    top: 18%;
     left: 18%;
 }
 #middle-marker {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 55%;
 }
 #hansen-marker {
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 75%;
 }
 #timp-marker2 {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 20%;
 }
 #middle-marker2 {
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 53%;
 }
 #hansen-marker2 {
     position: absolute;
-    top: 20%;
+    top: 19%;
     left: 73%;
+}
+
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.slides {
+    display: none;
+}
+.image-heading {
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    text-shadow: 1px 1px 2px #000000;
+}
+.image-text {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    margin-right: 2rem;
+    text-shadow: 1px 1px 2px #000000;
+}
+.slides img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -4px 3px rgba(40, 40, 40, 0.75);
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.dot-container {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 40%;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #A6A4A4;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #1E8A49;
+}
+/* Slide fade animation */
+.slide-fade {
+    animation-name: slide-fade;
+    animation-duration: 1.5s;
+}
+@keyframes slide-fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
 }
