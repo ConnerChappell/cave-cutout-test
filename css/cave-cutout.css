@@ -193,6 +193,11 @@ body {
     bottom: 1.5rem;
     left: 40%;
 }
+.dot-container2 {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 42%;
+}
 .dot {
     height: 15px;
     width: 15px;
