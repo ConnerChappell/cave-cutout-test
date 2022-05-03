@@ -51,17 +51,6 @@ nextArrow.addEventListener('click', () => {
     plusSlides(1)
 })
 
-// dot event listeners that call
-dot1.addEventListener('click', () => {
-    currentSlide(1)
-})
-dot2.addEventListener('click', () => {
-    currentSlide(2)
-})
-dot3.addEventListener('click', () => {
-    currentSlide(3)
-})
-
 // click event listener that closes welcome modal
 closeModalBtn.addEventListener('click', () => {
     modal.classList.add('fade-out')
